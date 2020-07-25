@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<widget xmlns   = "http://www.cagricibuk.com.tr"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.cuzdanimapp.cagricibuk"
+    versionCode = "10"
+    version     = "1.1.2" >
+  <name>CuzdanimApp</name>
+  <description>
+      CuzdanimApp for android.
+  </description>
+  <author email="cubukcagri561@gmail.com" href="http://cagricibuk.com.tr">
+      cagricibuk
+  </author>
+   <platform name="android">
+              <icon src="icon.png" density="ldpi" />
+              <icon src="icon.png" density="mdpi" />
+              <icon src="icon.png" density="hdpi" />
+              <icon src="icon.png" density="xhdpi" />
+		
+     </platform>
+	
+<splash src="splash.png" />
+</widget>

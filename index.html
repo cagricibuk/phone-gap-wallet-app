@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            Wallet App
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <style>
+        html, body{
+           margin: 0;
+        }
+        </style>
+        <body onload="onyukle();">
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p>Silmek istediğiniz itemin üstüne dokunun. </p><br><p>Cüzdana gelir veya gider eklerken önce miktarı ardına açıklamasını yazabilirsiniz.</p>
+                </div>
+              
+              </div>
+           <img src="logohd.jpg" >
+           <div id="bakiye-back"><div id="bakiye"></p><h1 ><p></p></h1></div><p id="help" onclick="pop();">?</p></div>
+
+            
+            <ul id="ula" style="overflow:scroll;" ></ul>
+        
+            <div id="footer">
+            <button id="eklebutton" style="background-color:rgb(40, 199, 138); margin-left:8%;">Ekle</button>
+            <button id="cikarbutton" style="background-color:rgb(199, 40, 40)">Çıkar</button>
+            <button onclick="sil();">Clear</button>
+            <button onclick="guncelle();">Bakiye</button>
+            
+        </div>
+        </body>
+        <script src="script.js"></script>
+            
+   
+</html>
